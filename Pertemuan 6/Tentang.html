@@ -1,19 +1,22 @@
 <!DOCTYPE html> 
-<html lang="en"> 
+<html> 
  
 <head> 
     <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-
-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="Mohamad Ilham Ramadhani" />
+
     <title>Lain-Lain</title> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/svg" href="person.svg" />
 </head> 
  
 <body> 
     <nav> 
-        <a href="Home.html">Home</a> | 
-        <a href="CV.pdf">Download CV</a> | 
-        <a href="Contact.html">Contact</a> | 
-        <a href="Tentang.html">About me</a> 
+        <a class="nav" href="Home.html">Home</a> | 
+        <a class="nav" href="CV.pdf">Download CV</a> | 
+        <a class="nav" href="Contact.html">Contact</a> | 
+        <a class="nav" href="Tentang.html">About me</a> 
     </nav> 
  
     <hr /> 
@@ -32,18 +35,48 @@ scale=1.0">
             Saya ingin menguasai bahasa HTML, CSS, dan Javascript. 
             Simak video lengkap tentang saya. 
         </p> 
+        <div style="max-width: 600px; color: cornflowerblue;" > 
+            <table border="0" width="100%"> 
+                <thead> 
+                    <tr> 
+                        <th colspan="2">Biodata Diri</th> 
+                    </tr> 
+                </thead> 
+                <tbody> 
+                    <tr> 
+                        <td> 
+                            <ul>Nama</ul> 
+                            <ul>Tempat, Tanggal Lahir</ul>
+                            <ul>NIM</ul> 
+                            <ul>Status</ul> 
+                            <ul>Kampus</ul>
+                            <ul>Fakultas</ul>
+                            <ul>Program Studi</ul>
+                        </td> 
+                        <td> 
+                            <ul>Mohamad Ilham Ramadhani</ul> 
+                            <ul>Semarang, 19 November 2002</ul> 
+                            <ul>A11.2022.14587</ul>
+                            <ul>Mahasiswa Aktif</ul>
+                            <ul>Universitas Dian Nuswantoro</ul>
+                            <ul>Ilmu Komputer</ul>
+                            <ul>S1 Teknik Informatika</ul>  
+                        </td> 
+                    </tr> 
+                </tbody> 
+            </table> 
+        </div> 
         <p> 
             <video width="720" controls> 
 			
-                <source src="C:\Users\ASUS\Documents\Ngampus\Pemweb\Pertemuan 6\coding bee.mp4" 
-type="video/mp4"/> 
+                <source src="coding bee.mp4" type="video/mp4"/> 
             </video> 
         </p> 
     </article> 
  
     <hr> 
-    <footer style="text-align: center;"> 
-        <p>Copyright &copy; 2020 @irmdhani_.</p> 
+    <footer> 
+        <p>Copyright &copy; 2022 @irmdhani_.</p> 
     </footer> 
 </body> 
 </html> 

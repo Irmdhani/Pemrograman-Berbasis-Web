@@ -1,29 +1,31 @@
 <!DOCTYPE html> 
-<html lang="en"> 
+<html> 
  
 <head> 
     <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-
-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="Mohamad Ilham Ramadhani" />
+
     <title>Contact Person</title> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/svg" href="chat.svg" />
 </head> 
  
 <body> 
     <nav> 
-        <a href="Home.html">Home</a> | 
-        <a href="CV.pdf">Download CV</a> | 
-        <a href="Contact.html">Contact</a> | 
-        <a href="Tentang.html">About me</a> 
+        <a class="nav" href="Home.html">Home</a> | 
+        <a class="nav" href="CV.pdf">Download CV</a> | 
+        <a class="nav" href="Contact.html">Contact</a> | 
+        <a class="nav" href="Tentang.html">About me</a> 
     </nav> 
  
     <hr /> 
- 
+    
     <div> 
-        <h1>Kontak Saya </h1> 
+        <h1>Hubungi Saya</h1> 
         <form> 
             <label for="email">Email</label><br /> 
-            <input type="email" name="email" placeholder="alamat 
-email"/> 
+            <input type="email" name="email" placeholder="alamat email"/> 
             <br /> 
             <label for="message">Pesan</label><br /> 
             <textarea name="message" placeholder="Tulis pesan anda..." 
@@ -34,9 +36,21 @@ rows="4" cols="80"></textarea>
         </form> 
     </div> 
  
+    <a class="social-icon" href="https://github.com/Irmdhani" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+    </a>
+    <a class="social-icon" href="https://www.instagram.com/irmdhani_/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+    <a class="social-icon" href="https://www.youtube.com/channel/UCk-X9YmV6szvXPixHjKVRgw" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+    </a>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <hr> 
-    <footer style="text-align: center;"> 
-        <p>Copyright &copy; 2020 @irmdhani_.</p> 
+    <footer> 
+        <p>Copyright &copy; 2022 @irmdhani_.</p> 
     </footer> 
 </body> 
 </html> 

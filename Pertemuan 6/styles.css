@@ -1,0 +1,66 @@
+body {
+  background-image: url(bg.jpg);
+}
+nav {
+  background-color: rgb(85, 168, 236);
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 25px;
+  border-radius: 3px;
+  color:white;
+  font-family:'Courier New', Courier, monospace ;
+  text-align: center;
+  font-weight: bold;
+}
+.nav {
+  color: white;
+  transition: 0.2s;
+  margin: 2px 5px;
+}
+.nav:hover {
+  color: rgb(147, 75, 188);
+}
+h1{
+  font-family:'Courier New', Courier, monospace ;
+  text-transform: uppercase;
+  color: aqua;
+}
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  color: aqua;
+}
+p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+table th {
+  font-size: 25px;
+}
+table ul {
+  font-size: 20px;
+}
+table ul li {
+  font-size: 25px;
+}
+footer {
+  text-align: center;
+  height: 60px;
+  background-color: rgb(85, 168, 236);
+  width: 100%;
+  line-height: 60px;
+}
+.social-icon {
+  color: rgb(255, 255, 255);
+  margin: 3px 5px;
+  transition: 0.2s;
+  text-decoration: none;
+  font-size: 50px;
+}
+.social-icon:hover {
+  color: dimgray;
+}
+video {
+  align-self: center;
+}
