@@ -35,7 +35,7 @@ nav {
     position: sticky;
     line-height: 75px;
     top: 0;
-    background-color: #c41313;
+    background-color: #d01b1b;
     transition: all 0.3s;
 }
 
@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 .search {
     width: 90%;
-    background: #5F9DF7;
+    background: #5f9df7;
     opacity: 80%;
     display: flex;
     align-items: center;
@@ -147,11 +147,11 @@ nav ul li a:hover {
 .blog-text .blog-title {
     font-size: 1.3rem;
     font-weight: 500;
-    color: #5F9DF7;
+    color: #ffffff;
 }
 .blog-text .blog-title:hover {
     transition: all ease 0,3s;
-    color: #1746A2;
+    color: #5f9df7;
 }
 .more-box {
     width: 100px;
@@ -160,13 +160,13 @@ nav ul li a:hover {
     margin: auto;
 }
 .more-box .read-more {
-    color: #5F9DF7;
+    color: #ffffff;
     margin: 16px 0px 16px 0px;
     padding: 10px 0px 10px 0px;
 }
 .more-box .read-more:hover {
     transition: all ease 0,3s;
-    color: #1746A2;
+    color: #5f9df7;
 }
 footer {
     text-align: center;
